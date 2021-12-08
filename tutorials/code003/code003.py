@@ -28,8 +28,15 @@ rect = cv.rectangle(output, (300,20), (420,100), (0,0,255), 1)
 # cv.circle(img, '중심점', '반지름', color, 두께= -1 공간채움)
 circle = cv.circle(output, (h//2, w//2), 20, (0,255,0), -1)
 
+# cv.line(img, 시작 좌표(pt1)부터 도착 좌표(pt2), color, 두께)
+line = cv.line(output, (60, 20), (400, 200), (0, 255, 255), 5)
+
+# cv.putText(img, text, '좌측 상단 모서리(org)', fontFace, fontScale, color)
+# 추가로 선형 타입(lineType), 기준 좌표(bottomLeftOrigin)를 설정가능( 한글 깨짐 )
+puttext = cv.putText(output, 'draw image', (10,25) ,cv.FONT_HERSHEY_COMPLEX, 2, (0, 255, 255), 3)
+
 # cv.namedWindow('Rectangle', cv.WINDOW_NORMAL) = 마우스로 이미지 크기 조절 가능
 cv.imshow('dst', dst)
 cv.imshow('dst2', dst2)
-cv.imshow('Rectangle, Circle', circle)
+cv.imshow('Rectangle, Circle, line, puttext', puttext)
 cv.waitKey()
