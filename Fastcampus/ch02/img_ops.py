@@ -14,7 +14,7 @@ cv.imshow('img4', img4)
 cv.waitKey()
 
 # 영상 복사
-img = cv.imread('ch02\\images\\HappyFish.jpg')
+img = cv.imread('ch02\\HappyFish.jpg')
 # img_2 = img, 이미지 공유됨
 img_copy = img.copy()
 
