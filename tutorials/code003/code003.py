@@ -23,6 +23,7 @@ dst2= cv.pyrDown(img)
 # draw image
 output = img.copy()
 # cv.rectangle(img, 시작 좌표(pt1)부터 도착 좌표(pt2), color, 두께)
+# pt1, pt2 X ==> rec 좌표 설정시(x, y, w, h)
 rect = cv.rectangle(output, (300,20), (420,100), (0,0,255), 1)
 
 # cv.circle(img, '중심점', '반지름', color, 두께= -1 공간채움)
