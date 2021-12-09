@@ -2,9 +2,9 @@ import sys
 import cv2 as cv
 
 # flags = cv.IMREAD_COLOR (default)
-src = cv.imread('ch02\\images\\airplane.bmp')
-mask = cv.imread('ch02\\images\\mask_plane.bmp', cv.IMREAD_GRAYSCALE)
-dst = cv.imread('ch02\\images\\field.bmp')
+src = cv.imread('ch02\\airplane.bmp')
+mask = cv.imread('ch02\\mask_plane.bmp', cv.IMREAD_GRAYSCALE)
+dst = cv.imread('ch02\\field.bmp')
 
 '''
 # HSV = 특정 색만 검출 할 수 있다
@@ -50,8 +50,8 @@ cv.waitKey()
 
 # 알파 채널을 마스크 영상으로 이용
 # 투명도가 들어간 image = ndim = 4
-src1 = cv.imread('ch02\\images\\cat.bmp', cv.IMREAD_COLOR)
-logo = cv.imread('ch02\\images\\opencv-logo-white.png', cv.IMREAD_UNCHANGED)
+src1 = cv.imread('ch02\\cat.bmp', cv.IMREAD_COLOR)
+logo = cv.imread('ch02\\opencv-logo-white.png', cv.IMREAD_UNCHANGED)
 print(logo.shape) # (222, 180, 4)
 # dst = cv.imread('ch02\\field.bmp')
 
