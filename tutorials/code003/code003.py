@@ -29,7 +29,7 @@ rect = cv.rectangle(output, (300,20), (420,100), (0,0,255), 1)
 # cv.circle(img, '중심점', '반지름', color, 두께= -1 공간채움)
 circle = cv.circle(output, (h//2, w//2), 20, (0,255,0), -1)
 
-# cv.line(img, 시작 좌표(pt1)부터 도착 좌표(pt2), color, 두께)
+# cv.line(img, 시작 좌표(pt1)부터 도착 좌표(pt2), color, 두께) + linetype = cv.LINE_AA = 라인을 
 line = cv.line(output, (60, 20), (400, 200), (0, 255, 255), 5)
 
 # cv.putText(img, text, '좌측 상단 모서리(org)', fontFace, fontScale, color)
