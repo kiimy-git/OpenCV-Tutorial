@@ -1,8 +1,8 @@
 import cv2 as cv
 import sys
 
-img_gray = cv.imread('ch02\\images\\cat.bmp', cv.IMREAD_GRAYSCALE)
-img_color = cv.imread('ch02\\images\\cat.bmp') # default = cv.IMREAD_COLOR 
+img_gray = cv.imread('ch02\\cat.bmp', cv.IMREAD_GRAYSCALE)
+img_color = cv.imread('ch02\\cat.bmp') # default = cv.IMREAD_COLOR 
 
 # 예외처리
 if img_color is None or img_gray is None:
