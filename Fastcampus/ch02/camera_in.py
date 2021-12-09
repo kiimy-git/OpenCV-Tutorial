@@ -73,6 +73,23 @@ while True:
     # key = cv.waitKey() 변수로 지정하는 것이 용이
     if cv.waitKey(delay) == ord('q'):
         break
+    '''
+    while True:
+    
+    # if cv2.waitKey() == ord('i') or cv2.waitKey() == ord('I'):
+    #     img = ~img
+    #     cv2.imshow('image', img)
+    # elif cv2.waitKey() == 27:
+    #     break
+    ## i를 두번 눌러야 바뀜
 
+    # 변수를 지정해주고 돌려여해(code 변경)
+    keycode = cv2.waitKey()
+    if keycode == ord('i') or keycode == ord('I'):
+        img = ~img
+        cv2.imshow('image', img)
+    elif keycode == 27:
+        break
+    '''
 cap.release()
 out.release()
