@@ -20,10 +20,12 @@ img = cv.imread('.\\ch01\\cat.bmp')
 dst = cv.pyrUp(img, (w*2, h*2), borderType= cv.BORDER_DEFAULT)
 dst2= cv.pyrDown(img)
 
-# draw image
+# draw image + linetype = cv.LINE_AA = 라인을 더 부드럽게 그림
 output = img.copy()
 # cv.rectangle(img, 시작 좌표(pt1)부터 도착 좌표(pt2), color, 두께)
-rect = cv.rectangle(output, (300,20), (420,100), (0,0,255), 1)
+# pt1, pt2 X ==> *rec 좌표 설정시(x, y, w, h)*
+rect1 = cv.rectangle(img, (50, 200, 150, 100), (0, 255, 0), 2)
+rect2 = cv.rectangle(output, (300,20), (420,100), (0,0,255), 1)
 
 # cv.circle(img, '중심점', '반지름', color, 두께= -1 공간채움)
 circle = cv.circle(output, (h//2, w//2), 20, (0,255,0), -1)
