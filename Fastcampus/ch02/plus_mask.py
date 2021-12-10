@@ -7,6 +7,7 @@ mask = cv.imread('ch02\\mask_plane.bmp', cv.IMREAD_GRAYSCALE)
 dst = cv.imread('ch02\\field.bmp')
 
 '''
+*HSV 따로 정리 필요*
 # HSV = 특정 색만 검출 할 수 있다
 1. imread
 2. cvtcolor = BGR2HSV
