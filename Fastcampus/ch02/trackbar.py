@@ -26,5 +26,6 @@ def onChange(pos):
 img = np.zeros((480,640), np.uint8)
 cv.namedWindow('image', cv.WINDOW_NORMAL)
 cv.createTrackbar('level', 'image', 0, 16, onChange)
+# cv.setTrackbarPos(trackbarname, winname, pos)
 cv.imshow('image', img)
 cv.waitKey()
