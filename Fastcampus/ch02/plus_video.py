@@ -104,4 +104,7 @@ for i in range(effect_frames, frame_cnt2):
     cv.waitKey(delay)
 
 print('\noutput.avi file is successfully generated!')
-    
+
+cap1.release()
+cap2.release()
+out.release()
