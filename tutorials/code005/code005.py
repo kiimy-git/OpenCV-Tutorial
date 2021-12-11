@@ -4,6 +4,12 @@ import sys
 # Erosions(침식) and Dilations(팽창)
 
 img = cv.imread('tetris_blocks.png')
+
+# 예외처리
+if img is None:
+    print('image load failed')
+    sys.exit()
+
 img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 ret, thresh = cv.threshold(img_gray, 225, 255, cv.THRESH_BINARY_INV)
 mask = thresh.copy()
