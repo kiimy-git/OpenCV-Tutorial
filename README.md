@@ -36,4 +36,4 @@ code003 | [pyramid (pyrUp, pyrDown), image draw + linetype](tutorials/code003/co
 code004 | [canny, sobel, threshold, findcontour, drawcontour, puttext](tutorials/code003/code004.py) | ✔️
 code005 | [erode, dilate](tutorials/code003/code005.py) | ✔️
 code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code003/code006.py) | ✔️
-
+code007 | [HSV (inRange, bitwise_and)](tutorials/code003/code007.py) | ✏️
