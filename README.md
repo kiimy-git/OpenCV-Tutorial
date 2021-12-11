@@ -17,8 +17,8 @@ ch02 | [Drawing (line, rectangle, cicle, polylines, puttext)](Fastcampus/ch02/dr
 ch02 | [Image_info (shape, dtype)](Fastcampus/ch02/img_info.py)   | ✔️
 ch02 | [Image_ops (empty, zeors, ones, full, img_slicing)](Fastcampus/ch02/img_ops.py)   | ✔️
 ch02 | [Plus_mask (mask, copyTo)](Fastcampus/ch02/plus_mask.py)   | ✔️
-ch02 | [Camera_in (VideoCapture, cv.get, CAP_PROP_FRAME_WIDTH)](Fastcampus/ch02/camera_in.py)   | ✏️
-ch02 | [Camera_out (VideoWriter_fourcc, VideoWriter)](Fastcampus/ch02/camera_in.py)   | ✏️
+ch02 | [Camera_in (VideoCapture, cv.get, CAP_PROP_FRAME_WIDTH)](Fastcampus/ch02/camera_in.py)   | ✔️
+ch02 | [Camera_out (VideoWriter_fourcc, VideoWriter)](Fastcampus/ch02/camera_in.py)   | ✔️
 ch02 | [Mouse_event (setMouseCallback, onMouse, EVENT_LBUTTONDOWN, EVENT_FLAG_LBUTTON)](Fastcampus/ch02/camera_in.py)   | ✏️
 ch02 | [Trackbar (createTrackbar, onChange)](Fastcampus/ch02/trackbar.py)   | ✏️
 ch02 | [Time_check (TickMeter, time.time, getTimeSec)](Fastcampus/ch02/time_check.py)   | ✏️
