@@ -13,7 +13,7 @@ No    | Description   | Annotation
 :--------: | :--------: | :--------:
 ch01 | [Image_basic](Fastcampus/ch01/ch01_basic.ipynb)   | ✔️
 ch01 | [Slide](Fastcampus/ch01/slide.py)   | ✔️
-ch02 | [Drawing (line, rectangle, cicle, polylines, puttext)](Fastcampus/ch02/drawing.py)   | ✔️
+ch02 | [Drawing (line, rectangle, cicle, polylines, puttext + linetpye)](Fastcampus/ch02/drawing.py)   | ✔️
 ch02 | [Image_info (shape, dtype)](Fastcampus/ch02/img_info.py)   | ✔️
 ch02 | [Image_ops (empty, zeors, ones, full, img_slicing)](Fastcampus/ch02/img_ops.py)   | ✔️
 ch02 | [Plus_mask (mask, copyTo)](Fastcampus/ch02/plus_mask.py)   | ✔️
@@ -32,7 +32,7 @@ No    | Description   | Annotation
 :--------: | :--------: | :--------:
 code001 | [load_image](tutorials/code001/code001.py) | ✔️
 code002 | [rotated, flip (getRotationMatrix2D, warpAffine)](tutorials/code002/code002.py) | ✔️
-code003 | [pyramid, image draw](tutorials/code003/code003.py) | ✔️
+code003 | [pyramid (pyrUp, pyrDown), image draw + linetype](tutorials/code003/code003.py) | ✔️
 code004 | [canny, sobel, threshold, findcontour, drawcontour, puttext](tutorials/code003/code004.py) | ✔️
 code005 | [erode, dilate](tutorials/code003/code005.py) | ✔️
 code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code003/code006.py) | ✔️
