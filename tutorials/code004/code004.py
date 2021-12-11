@@ -1,6 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('.\\ch02\\tetris_blocks.png')
+img = cv.imread('.\\tetris_blocks.png')
 img = cv.resize(img, (500,500))
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
