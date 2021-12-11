@@ -33,5 +33,7 @@ No    | Description   | Annotation
 code001 | [load_image](tutorials/code001/code001.py) | ✔️
 code002 | [rotated, flip (getRotationMatrix2D, warpAffine)](tutorials/code002/code002.py) | ✔️
 code003 | [pyramid, image draw](tutorials/code003/code003.py) | ✔️
-code004 | [edge detection, contour/draw, ](tutorials/code003/code003.py) | ✔️
+code004 | [edge detection, contour/draw, ](tutorials/code003/code004.py) | ✔️
+code005 | [erode, dilate](tutorials/code003/code005.py) | ✔️
+code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code003/code006.py) | ✔️
 
