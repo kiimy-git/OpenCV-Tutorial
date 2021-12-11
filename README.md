@@ -31,7 +31,7 @@ ch02 | [Plus_video (effect_frames)](Fastcampus/ch02/plus_video.py)   | ✏️
 No    | Description   | Annotation
 :--------: | :--------: | :--------:
 code001 | [load_image](tutorials/code001/code001.py) | ✔️
-code002 | [rotated, flip](tutorials/code002/code002.py) | ✔️
+code002 | [rotated, flip (getRotationMatrix2D, warpAffine)](tutorials/code002/code002.py) | ✔️
 code003 | [pyramid, image draw](tutorials/code003/code003.py) | ✔️
 code004 | [edge detection, contour/draw, ](tutorials/code003/code003.py) | ✔️
 
