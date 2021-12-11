@@ -33,7 +33,7 @@ No    | Description   | Annotation
 code001 | [load_image](tutorials/code001/code001.py) | ✔️
 code002 | [rotated, flip (getRotationMatrix2D, warpAffine)](tutorials/code002/code002.py) | ✔️
 code003 | [pyramid (pyrUp, pyrDown), image draw + linetype](tutorials/code003/code003.py) | ✔️
-code004 | [canny, sobel, threshold, findcontour, drawcontour, puttext](tutorials/code003/code004.py) | ✔️
-code005 | [erode, dilate](tutorials/code003/code005.py) | ✔️
-code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code003/code006.py) | ✔️
-code007 | [HSV (inRange, bitwise_and)](tutorials/code003/code007.py) | ✏️
+code004 | [canny, sobel, threshold, findcontour, drawcontour, puttext](tutorials/code004/code004.py) | ✔️
+code005 | [erode, dilate](tutorials/code005/code005.py) | ✔️
+code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code006/code006.py) | ✔️
+code007 | [HSV (inRange, bitwise_and)](tutorials/code007/code007.py) | ✏️
