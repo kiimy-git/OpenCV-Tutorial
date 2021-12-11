@@ -17,7 +17,6 @@ canny = cv.Canny(gray, 80, 100)
 sobel = cv.Sobel(gray, cv.CV_8U, 0, 1, 3)
 
 # Thresholding(이진화) 
-# cv.THRESH_BINARY = 도형이 검은색, cv.THRESH_BINARY_INV = 도형이 흰색
 # 설정 임곗값(retval)과 결과 이미지(dst)를 반환
 # 도형 검출 시 object가 흰색성질을 띄도록 변환(INV)
 res, dst = cv.threshold(gray, 225, 255, cv.THRESH_BINARY_INV)

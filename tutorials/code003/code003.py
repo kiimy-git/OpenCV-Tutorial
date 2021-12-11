@@ -1,7 +1,7 @@
 import cv2 as cv
 
 # 이미지 확대( image pyramid )
-img = cv.imread('.\\ch01\\cat.bmp')
+img = cv.imread('code001\\cat.bmp')
 
 '''
 만약 알고리즘에서 요구하는 해상도가 있다면 입력 이미지의 크기를 변경해 영상 처리를 진행
