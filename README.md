@@ -38,3 +38,4 @@ code004 | [canny, sobel, threshold, findcontour, drawcontour, puttext](tutorials
 code005 | [이미지 형태 전환 (Morphological Transformations) erode, dilate](tutorials/code005/code005.py) | ✔️
 code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code006/code006.py) | ✔️
 code007 | [HSV (inRange, bitwise_and)](tutorials/code007/code007.py) | ✏️
+code008 | [Image Resize](tutorials/code008/code008.py) | ✏️
