@@ -14,9 +14,11 @@ img_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 ret, dst = cv.threshold(img_gray, 225, 255, cv.THRESH_BINARY_INV)
 mask = dst.copy()
 # cv.erode = iterations이 클 수록 작아짐
+# (img, kernel, iterations=1)
 erode = cv.erode(mask, None, iterations=5)
 
-# cv.erode = iterations이 클 수록 커짐
+# cv.dilate = iterations이 클 수록 커짐
+# (img, kernel, iterations=1)
 dilate = cv.dilate(mask, None, iterations=5)
 
 cv.imshow('image', img)
