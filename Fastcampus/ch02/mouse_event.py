@@ -4,6 +4,11 @@ import sys
 
 oldx = oldy = -1
 
+'''
+event는 마우스 동작 상수값, 클릭, 이동
+flags는 마우스 이벤트가 발생할 때 키보드 또는 마우스 상태를 의미
+'''
+
 def onMouse(event, x, y, flags, param):
     global oldx, oldy
 
@@ -26,7 +31,7 @@ def onMouse(event, x, y, flags, param):
             # 처음 시작점 변수 지정 oldx, oldy
             cv.line(img, (oldx, oldy), (x,y), (0,0,255), 2, cv.LINE_AA)
             cv.imshow('image', img)
-            oldx, oldy = x, y
+            oldx, oldy = x, y # 그림을 그리고 또 좌표 저장
 
 img = np.ones((480,640,3), dtype=np.uint8) * 255 # 흰색
 
