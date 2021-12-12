@@ -5,6 +5,9 @@ import numpy as np
 img = np.full((400, 400, 3), 255, np.uint8)
 
 # line
+# cv2.line(img, pt1, pt2, color, thickness, lineType)
+# pt1 = 시작점 좌표 (x, y)
+# pt2 = 종료점 좌표 (x, y)
 cv.line(img, (50, 50), (200, 50), (0, 0, 255), 5)
 
 # rectangle ( x, y, w, h) = x, y 꼭지점으로부터 (x+w), (y+h)
