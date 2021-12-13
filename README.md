@@ -3,7 +3,7 @@
 
 ## Introduction
 ### Source Code of Image Process for Image Deep Learning
-[blog](https://cord-ai.tistory.com/category/opencv-tutorials) ~ing
+[blog](https://cord-ai.tistory.com/) ~ing
 
 ## Learning
 ***Annotation:***
