@@ -32,6 +32,7 @@ cv2.waitKey()
 # cv2.createTrackbar(trackbarName, windowName, value, count, onChange)
 # cv2.namedWindow 설정해줘야해 = windowName
 
+# pos 인자값 지정
 def onChange(pos):
     # pos 지정
     hmin = cv2.getTrackbarPos('H_min', 'dst')
