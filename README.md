@@ -40,3 +40,4 @@ code006 | [bitwise_and ( img, img, mask=mask )](tutorials/code006/code006.py) | 
 code007 | [HSV (inRange, bitwise_and)](tutorials/code007/code007.py) | ✏️
 code008 | [Image Resize](tutorials/code008/code008.py) | ✔️
 code009 | [모폴로지 연산(Perspective Calculate) opening, closing, gradient](tutorials/code009/code009.py) | ✏️
+code009 | [배열정합(addWeighted)](tutorials/code010/code010.py) | ✔️
