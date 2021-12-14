@@ -30,7 +30,7 @@ delay = int(1000 / fps)
 
 # 영상 저장
 fourcc = cv2.VideoWriter_fourcc(*'DIVX')
-out = cv2.VideoWriter('output.avi', fourcc, fps, (w,h))
+out = cv2.VideoWriter('output.avi', fourcc, fps, (w,h)) # ('\\video\\output.avi') 경로 설정
 
 # 합성 여부 flag
 do_decomposit = False
