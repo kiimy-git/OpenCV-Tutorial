@@ -37,10 +37,12 @@ logo = logo[:, :, :3] # BGR
 h, w = logo.shape[:2]
 crop = src1[:h, :w]
 
+# logo에서 crop으로 복사 하는데 logo_mask흰 부분만 가져오겠다.
 cv.copyTo(logo, logo_mask, crop)
 
 cv.imshow('src1', src1)
 cv.imshow('logo_mask', logo_mask)
 cv.imshow('logo', logo)
+cv.imshow('crop', crop)
 
 cv.waitKey()
