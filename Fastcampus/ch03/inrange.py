@@ -9,14 +9,19 @@ if src is None:
     sys.exit()
 
 hsv = cv2.cvtColor(src, cv2.COLOR_BGR2HSV)
-
-# 특정 색 추출
+'''
+# 특정 색 추출 (*해당 색 흰색으로*)
+'''
 # 이미지를 보면 RGB가 더 깨끗하게 나오고 HSV는 지저분한 픽셀이 나옴
 # RGB가 더 좋다고 볼 수 없는것이 이미지가 어두워지면 성능이 떨어짐
 # HSV를 주로 사용하게된다.(V = 0 ~ 255를 할당하면 어두운 영상도 반환해줌)
 dst1 = cv2.inRange(src, (0,128,0), (100,255,100))
 dst2 = cv2.inRange(hsv, (50,150,0), (80,255,255))
 '''
+inRange = 정해져있는 color 추출할때 유용(빨주노초...)
+Backprojection = 임의의 color 추출할때 유용
+==> 주로 LAB, YCrCb 사용
+
 50 <= H <= 80
 150 <= S <= 255
 0 <= V <= 255
