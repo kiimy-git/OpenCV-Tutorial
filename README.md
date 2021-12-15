@@ -37,7 +37,13 @@ ch03 | [InRange (inRange, createTrackbar, getTrackbarpos)](Fastcampus/ch03/inran
 ch03 | [BackProjection (selectROI, normalize, calcBackProject, copyTo)](Fastcampus/ch03/backproject1.py)    | ✏️
 ch03 | [BackProjection (mask, normalize, calcBackProject)](Fastcampus/ch03/backproj2.py)    | ✔️
 ch03 | [Chroma_key](Fastcampus/ch03/chroma_key.py)    | 🎯
-
+ch04 | [Blurring (filter2D, blur)](Fastcampus/ch04/blurring.py)    | ✔️
+ch04 | [Gaussianblur (GaussianBlur)](Fastcampus/ch04/gaussian.py)    | ✔️
+ch04 | [Sharpening-gray (GaussianBlur, subtract, addWeighted, np.clip)](Fastcampus/ch04/sharpening1.py)    | ✏️(coding)
+ch04 | [Sharpening-color (GaussianBlur, np.clip)](Fastcampus/ch04/sharpening2.py)    | ✏️(coding)
+ch04 | [Median (medianBlur)](Fastcampus/ch04/median.py)    | ✔️
+ch04 | [Bilateral (bilateralFilter)](Fastcampus/ch04/bilateral.py)    | ✔️
+ch04 | [Cartoon_cam (Canny, bitwise_and, divide)](Fastcampus/ch04/cartoon_cam.py)    | 🎯
 
 
 
