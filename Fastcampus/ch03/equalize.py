@@ -39,7 +39,7 @@ YCrCb 색공간에서 Y는 밝기성분만을 가지고 있으므로 이를 활�
 src_color = cv2.imread('ch03\\images\\field.bmp')
 
 # Y: 밝기 정보
-# Cr,CB : 색차정보
+# Cr,Cb : red와 blue(밝기정보Y와 대비했을 때의 차이) = 색차정보
 src_ycrcb = cv2.cvtColor(src_color, cv2.COLOR_BGR2YCrCb)
 y, cr, cb = cv2.split(src_ycrcb)
 planes = cv2.split(src_ycrcb)
