@@ -17,7 +17,7 @@ if s = 0.5
 if s = 2.0
 전체적으로 흰 부분이 많아짐(pdf 그래프 참조)
 '''
-# 이 연산을 사용해야지만 적절한 constrast를 반영할 수 있다.
+# 이 연산을 사용해야지만 적절한 contrast를 반영할 수 있다.
 # dst(x,y) = saturate(src(x,y) + (src(x,y) - 128) * 알파)
 
 alpha = 1.0 # 커질수록 contrast가 높아짐 
