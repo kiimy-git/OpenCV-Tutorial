@@ -16,7 +16,8 @@ if img1 is None and img2 is None:
 # cv2.add(src1, src2)
 img_sum = cv.add(img1, img2)
 
-# cv2.addweighted(img1 * alpha + img2 * (1-alpha))
+# cv2.addweighted(img1 * alpha + img2 * (1-alpha), gamma)
+# gamma 정수값을 더함으로써 좀 더 눈에 잘보이게 할 수 있다.
 alpha = 0.5
 img_addweight = cv.addWeighted(img1, alpha, img2, 1-alpha, 0)
 
