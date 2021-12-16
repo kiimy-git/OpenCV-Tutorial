@@ -47,8 +47,8 @@ ch04 | [Cartoon_cam (Canny, bitwise_and, divide)](Fastcampus/ch04/cartoon_cam.py
 ch05 | [Translate, Shear (wrapAffine)](Fastcampus/ch05/translate,shear.py)    | ✔️
 ch05 | [Scaling (resize)](Fastcampus/ch05/scaling.py)    | ✔️
 ch05 | [Pyramid (pyrDown, pyrUp, rectangle(shift))](Fastcampus/ch05/pyramid.py)    | ✔️
-ch05 | [Rotation (getRotationMatrix2D, warpAffine)](Fastcampus/ch05/rotation.py)    | ✔️
-ch05 | [Perspective (getPerspectiveTransform, warpPerspective)](Fastcampus/ch05/rotation.py)    | ✏️
+ch05 | [Rotation (getRotationMatrix2D, warpAffine)](Fastcampus/ch05/rotaion.py)    | ✔️
+ch05 | [Perspective (getPerspectiveTransform, warpPerspective)](Fastcampus/ch05/perspective.py)    | ✏️
 ch05 | [Remapping (np.indices, remap)](Fastcampus/ch05/remapping.py)    | ✏️
 ch05 | [DocuScan (EVENT_MOUSE, getPerspectiveTransform)](Fastcampus/ch05/docuscan.py)    | 🎯
 
