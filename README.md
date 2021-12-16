@@ -44,7 +44,7 @@ ch04 | [Sharpening-color (GaussianBlur, np.clip)](Fastcampus/ch04/sharpening2.py
 ch04 | [Median (medianBlur)](Fastcampus/ch04/median.py)    | ✔️
 ch04 | [Bilateral (bilateralFilter)](Fastcampus/ch04/bilateral.py)    | ✔️
 ch04 | [Cartoon_cam (Canny, bitwise_and, divide)](Fastcampus/ch04/cartoon_cam.py)    | 🎯
-ch05 | [Translate, Shear (wrapAffine)](Fastcampus/ch05/translate, shear.py)    | ✔️
+ch05 | [Translate, Shear (wrapAffine)](Fastcampus/ch05/translate,_shear.py)    | ✔️
 ch05 | [Scaling (resize)](Fastcampus/ch05/scaling.py)    | ✔️
 ch05 | [Pyramid (pyrDown, pyrUp, rectangle(shift))](Fastcampus/ch05/pyramid.py)    | ✔️
 ch05 | [Rotation (getRotationMatrix2D, warpAffine)](Fastcampus/ch05/rotaion.py)    | ✔️
