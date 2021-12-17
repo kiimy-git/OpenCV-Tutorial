@@ -3,7 +3,7 @@
 
 ## Introduction
 ### Source Code of Image Process for Image Deep Learning
-[blog](https://cord-ai.tistory.com/) ~ing
+[Blog](https://cord-ai.tistory.com/) ~ing
 
 ## Learning
 ***Annotation:***
@@ -51,6 +51,14 @@ ch05 | [Rotation (getRotationMatrix2D, warpAffine)](Fastcampus/ch05/rotaion.py) 
 ch05 | [Perspective (getPerspectiveTransform, warpPerspective)](Fastcampus/ch05/perspective.py)    | ✏️
 ch05 | [Remapping (np.indices, remap)](Fastcampus/ch05/remapping.py)    | ✏️
 ch05 | [DocuScan (EVENT_MOUSE, getPerspectiveTransform)](Fastcampus/ch05/docuscan.py)    | 🎯
+ch06 | [Sobel (Sobel)](Fastcampus/ch06/sobel.py)    | ✔️
+ch06 | [Sobel_gradient (magnitude, clip, threshold, phase)](Fastcampus/ch06/sobel_gradient.py)    | ✏️
+ch06 | [Canny (canny, trackbar)](Fastcampus/ch06/canny.py)    | ✏️
+ch06 | [Hough_lines (GaussianBlur, HoughLinesP, canny)](Fastcampus/ch06/hough_lines.py)    | ✏️
+ch06 | [Hough_circles (cvtColor, GaussianBlur, HoughCircles)](Fastcampus/ch06/hough_circles.py)    | ✔️
+ch06 | [Coin_counter using HUE (cvtColor, GaussianBlur, HoughCircles, Histogram, mean)](Fastcampus/ch06/scaling.py)    | 🎯
+
+
 
 
 
