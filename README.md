@@ -56,7 +56,7 @@ ch06 | [Sobel_gradient (magnitude, clip, threshold, phase)](Fastcampus/ch06/sobe
 ch06 | [Canny (canny, trackbar)](Fastcampus/ch06/canny.py)    | ✏️
 ch06 | [Hough_lines (GaussianBlur, HoughLinesP, canny)](Fastcampus/ch06/hough_lines.py)    | ✏️
 ch06 | [Hough_circles (cvtColor, GaussianBlur, HoughCircles)](Fastcampus/ch06/hough_circles.py)    | ✔️
-ch06 | [Coin_counter using HUE (cvtColor, GaussianBlur, HoughCircles, Histogram, mean)](Fastcampus/ch06/coin_counter.py)    | 🎯
+ch06 | [Coin_counter using HUE (cvtColor, GaussianBlur, HoughCircles, Histogram, mean)](Fastcampus/ch06/coin_count.py)    | 🎯
 
 
 
