@@ -42,7 +42,7 @@ def pencil_sketch(frame):
     
     # edge 근방에서 어두운 영역을 검정색으로 밝은 영역은 흰색으로
     # gray % blr (영상 그래프 참조)
-    # blr값이 더 큰 부분은 0보다 작은 값
+    # blr값이 더 큰 부분은 1보다 작은 값
     # blr값이 더 작은 부분은 1보다 큰 값
     dst = cv2.divide(gray, blr, scale=255)
     dst = cv2.cvtColor(dst, cv2.COLOR_GRAY2BGR)

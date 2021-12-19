@@ -50,6 +50,7 @@ print(src_ycrcb[:, :, 0])
 
 # 밝기 성분에 대해서만 히스토그램 평활화 수행
 dst_y = cv2.equalizeHist(y)
+# planes[0] = cv2.equalizeHist(planes[0])
 
 # 평활화 진행 후 merge(YCrCb ==> BGR 변경)
 dst_ycrcb = cv2.merge([dst_y, cr, cb])
