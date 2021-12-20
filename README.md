@@ -57,6 +57,18 @@ ch06 | [Canny (canny, trackbar)](Fastcampus/ch06/canny.py)    | ✏️
 ch06 | [Hough_lines (GaussianBlur, HoughLinesP, canny)](Fastcampus/ch06/hough_lines.py)    | ✏️
 ch06 | [Hough_circles (cvtColor, GaussianBlur, HoughCircles)](Fastcampus/ch06/hough_circles.py)    | ✔️
 ch06 | [Coin_count using HUE (cvtColor, GaussianBlur, HoughCircles, Histogram, mean)](Fastcampus/ch06/coin_count.py)    | 🎯
+ch07 | [Threshold (Threshold)](Fastcampus/ch07/threshold.py)    | ✔️
+ch07 | [Otsu (THRESH_OTSU)](Fastcampus/ch07/otsu.py)    | ✔️
+ch07 | [Local_Otsu (Coding)](Fastcampus/ch07/local_otsu.py)    | ✏️(coding)
+ch07 | [Adaptive_th (adaptiveThreshold)](Fastcampus/ch07/adaptive_th.py)    | ✔️
+ch07 | [Morphology (getStructuringElement, erode, dilate)](Fastcampus/ch07/morphology.py)    | ✔️
+ch07 | [morphologyEx, labeling (connectedComponents, morphologyEx)](Fastcampus/ch07/morphologyEx.py)    | ✔️
+ch07 | [Keyboard_labeling (connectedComponentsWithStats](Fastcampus/ch07/keyboard.py)    | ✏️
+ch07 | [Contours_hierarchy (findContours, hierarchy)](Fastcampus/ch07/contours_hierarchy.py)    | ✏️
+ch07 | [Contours_contours (findContours, contours)](Fastcampus/ch07/contours_contours.py)    | ✏️
+ch07 | [Polygon_detection (findContours, contours, approxPolyDP, arcLength, contourArea)](Fastcampus/ch07/detection.py)    | ✔️
+ch07 | [Tesseract (pytesseract.image_to_string)](Fastcampus/ch07/tesseract.py)    | 🎯
+
 
 
 
