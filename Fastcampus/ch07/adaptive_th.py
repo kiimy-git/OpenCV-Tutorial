@@ -3,6 +3,10 @@ import numpy as np
 import cv2
 
 # 적응형 이진화(= 지역이진화)
+'''
+조명의 변화나 반사가 심한 경우 이미지 내의 밝기 분포가 달라 국소적으로 
+임곗값을 적용해야 하는 경우
+'''
 src = cv2.imread('ch07\\images\\sudoku.jpg', cv2.IMREAD_GRAYSCALE)
 
 if src is None:
