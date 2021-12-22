@@ -14,8 +14,10 @@
 ## FastCampus
 No    | Description   | Annotation
 :--------: | :--------: | :--------:
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch01 | [Image_basic](Fastcampus/ch01/ch01_basic.ipynb)   | ✔️
 ch01 | [Slide](Fastcampus/ch01/slide.py)   | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch02 | [Drawing (line, rectangle, cicle, polylines, puttext + linetpye)](Fastcampus/ch02/drawing.py)   | ✔️
 ch02 | [Image_info (shape, dtype)](Fastcampus/ch02/img_info.py)   | ✔️
 ch02 | [Image_ops (empty, zeors, ones, full, img_slicing)](Fastcampus/ch02/img_ops.py)   | ✔️
@@ -26,6 +28,7 @@ ch02 | [Mouse_event (setMouseCallback, onMouse, EVENT_LBUTTONDOWN, EVENT_FLAG_LB
 ch02 | [Trackbar (createTrackbar, onChange)](Fastcampus/ch02/trackbar.py)   | ✏️
 ch02 | [Time_check (TickMeter, time.time, getTimeSec)](Fastcampus/ch02/time_check.py)   | ✏️
 ch02 | [Plus_video (effect_frames)](Fastcampus/ch02/plus_video.py)   | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch03 | [Brightness (add)](Fastcampus/ch03/brightness.py)    |✔️
 ch03 | [산술연산(Arithmetic) (add, addweighted, substract, absdiff)](Fastcampus/ch03/arithmetic.py)    |✔️
 ch03 | [Color (split)](Fastcampus/ch03/color.py)    |✔️
@@ -37,6 +40,7 @@ ch03 | [InRange (inRange, createTrackbar, getTrackbarpos)](Fastcampus/ch03/inran
 ch03 | [BackProjection (selectROI, normalize, calcBackProject, copyTo)](Fastcampus/ch03/backproject1.py)    | ✏️
 ch03 | [BackProjection (mask, normalize, calcBackProject)](Fastcampus/ch03/backproj2.py)    | ✔️
 ch03 | [Chroma_key](Fastcampus/ch03/chroma_key.py)    | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch04 | [Blurring (filter2D, blur)](Fastcampus/ch04/blurring.py)    | ✔️
 ch04 | [Gaussianblur (GaussianBlur)](Fastcampus/ch04/gaussian.py)    | ✔️
 ch04 | [Sharpening-gray (GaussianBlur, subtract, addWeighted, np.clip)](Fastcampus/ch04/sharpening1.py)    | ✏️(coding)
@@ -44,6 +48,7 @@ ch04 | [Sharpening-color (GaussianBlur, np.clip)](Fastcampus/ch04/sharpening2.py
 ch04 | [Median (medianBlur)](Fastcampus/ch04/median.py)    | ✔️
 ch04 | [Bilateral (bilateralFilter)](Fastcampus/ch04/bilateral.py)    | ✔️
 ch04 | [Cartoon_cam (Canny, bitwise_and, divide)](Fastcampus/ch04/cartoon_cam.py)    | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch05 | [Translate, Shear (wrapAffine)](Fastcampus/ch05/translate.py)    | ✔️
 ch05 | [Scaling (resize)](Fastcampus/ch05/scaling.py)    | ✔️
 ch05 | [Pyramid (pyrDown, pyrUp, rectangle(shift))](Fastcampus/ch05/pyramid.py)    | ✔️
@@ -51,12 +56,14 @@ ch05 | [Rotation (getRotationMatrix2D, warpAffine)](Fastcampus/ch05/rotaion.py) 
 ch05 | [Perspective (getPerspectiveTransform, warpPerspective)](Fastcampus/ch05/perspective.py)    | ✏️
 ch05 | [Remapping (np.indices, remap)](Fastcampus/ch05/remapping.py)    | ✏️
 ch05 | [DocuScan (EVENT_MOUSE, getPerspectiveTransform)](Fastcampus/ch05/docuscan.py)    | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch06 | [Sobel (Sobel)](Fastcampus/ch06/sobel.py)    | ✔️
 ch06 | [Sobel_gradient (magnitude, clip, threshold, phase)](Fastcampus/ch06/sobel_gradient.py)    | ✏️
 ch06 | [Canny (canny, trackbar)](Fastcampus/ch06/canny.py)    | ✏️
 ch06 | [Hough_lines (GaussianBlur, HoughLinesP, canny)](Fastcampus/ch06/hough_lines.py)    | ✏️
 ch06 | [Hough_circles (cvtColor, GaussianBlur, HoughCircles)](Fastcampus/ch06/hough_circles.py)    | ✔️
 ch06 | [Coin_count using HUE (cvtColor, GaussianBlur, HoughCircles, Histogram, mean)](Fastcampus/ch06/coin_count.py)    | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 ch07 | [Threshold (Threshold)](Fastcampus/ch07/threshold.py)    | ✔️
 ch07 | [Otsu (THRESH_OTSU)](Fastcampus/ch07/otsu.py)    | ✔️
 ch07 | [Local_Otsu (Coding)](Fastcampus/ch07/local_otsu.py)    | ✏️(coding)
@@ -68,6 +75,7 @@ ch07 | [Contours_hierarchy (findContours, hierarchy)](Fastcampus/ch07/contours_h
 ch07 | [Contours_contours (findContours, contours)](Fastcampus/ch07/contours_contours.py)    | ✏️
 ch07 | [Polygon_detection (findContours, contours, approxPolyDP, arcLength, contourArea)](Fastcampus/ch07/detection.py)    | ✔️
 ch07 | [Tesseract (pytesseract.image_to_string)](Fastcampus/ch07/tesseract.py)    | 🎯
+-- | ㅁㄴㅇㅁㄴㅇ | --
 
 
 
