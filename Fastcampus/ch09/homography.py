@@ -4,6 +4,8 @@ import cv2
 
 
 # 기준 영상 불러오기
+# src1 = cv2.imread('ch09\\images\\graf1.png', cv2.IMREAD_GRAYSCALE)
+# src2 = cv2.imread('ch09\\images\\graf3.png', cv2.IMREAD_GRAYSCALE)
 src1 = cv2.imread('ch09\\images\\box.png', cv2.IMREAD_GRAYSCALE)
 src2 = cv2.imread('ch09\\images\\box_in_scene.png', cv2.IMREAD_GRAYSCALE)
 
@@ -23,7 +25,7 @@ matcher = cv2.BFMatcher_create()
 matches = matcher.match(desc1, desc2)
 
 matches = sorted(matches, key=lambda x: x.distance)
-good_matches = matches[:80]
+good_matches = matches[:60]
 
 # 호모그래피 계산
 # good_matches = 80개의 특징점
@@ -45,7 +47,8 @@ cv2.findHomography(srcPoints, dstPoints, method=None,
 
 retval: 호모그래피 행렬. numpy.ndarray. shape=(3, 3). dtype=numpy.float32.
 mask: 출력 마스크 행렬. RANSAC, RHO 방법 사용 시 Inlier로 사용된
-        점들을 1로 표시한 행렬. numpy.ndarray. shape=(N, 1), dtype=uint8
+      점들을 1로 표시한 행렬. numpy.ndarray. shape=(N, 1), dtype=uint8
+      inliers = 두 특징점이 매칭된 것은 1, 아닌 것은 0으로
 
 '''
 # 호모그래피를 이용하여 기준 영상 영역 표시

@@ -1,5 +1,3 @@
-import numpy as np
+import cv2
 
-a = np.array([[1]])
-
-print(a[0,0])
+print(cv2.__version__)
