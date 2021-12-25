@@ -93,7 +93,6 @@ ch09 | [Good_match_KNN (knnMatch)](Fastcampus/ch09/Good_match_knn.py)    | ✏�
 ch09 | [Homography (findHomography, perspectiveTransform)](Fastcampus/ch09/homography.py)    | ✏️
 ch09 | [Stitching_PANORAMA (Stitcher_create, stitch)](Fastcampus/ch09/stitching.py)    | ✔️
 
-No    | Description   | Annotation
 :--------: | :--------: | :--------:
 -- | CH10 | --
 ch10 | [BS_static (absdiff, threshold, connectedComponentsWithStats)](Fastcampus/ch10/BS_static.py)    | ✔️
@@ -101,9 +100,9 @@ ch10 | [BS_moveavg (back.astype(np.float32), accumulateWeighted)](Fastcampus/ch1
 ch10 | [BS_MOG2 (createBackgroundSubtractorKNN, createBackgroundSubtractorMOG2, apply, getBackgroundImage)](Fastcampus/ch10/BS_MOG2.py)    | ✏️
 ch10 | [MeanShift (term_crit, calcBackProject, meanShift)](Fastcampus/ch10/meanshift.py)    | ✔️
 ch10 | [CamShift (term_crit, calcBackProject, CamShift)](Fastcampus/ch10/camshift.py)    | ✏️
-ch10 | [Optical_flow_LK (goodFeaturesToTrack, calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK.py)    | ✔️
-ch10 | [Optical_flow_LK_video (calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK_video.py)    | ✔️
-ch10 | [Optical_flow_Farne (calcOpticalFlowFarneback, cartToPolar)](Fastcampus/ch10/optical_flow_Farne.py)    | ✔️
+ch10 | [Optical_flow_LK (goodFeaturesToTrack, calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK.py)    | HARD
+ch10 | [Optical_flow_LK_video (calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK_video.py)    | HARD
+ch10 | [Optical_flow_Farne (calcOpticalFlowFarneback, cartToPolar)](Fastcampus/ch10/optical_flow_Farne.py)    | HARD
 ch10 | [Tracker (TrackerMIL_create, init, update)](Fastcampus/ch10/tracker.py)    | ✔️
 
 
