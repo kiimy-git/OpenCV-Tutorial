@@ -93,6 +93,7 @@ ch09 | [Good_match_KNN (knnMatch)](Fastcampus/ch09/Good_match_knn.py)    | ✏�
 ch09 | [Homography (findHomography, perspectiveTransform)](Fastcampus/ch09/homography.py)    | ✏️
 ch09 | [Stitching_PANORAMA (Stitcher_create, stitch)](Fastcampus/ch09/stitching.py)    | ✔️
 
+No    | Description   | Annotation
 :--------: | :--------: | :--------:
 -- | CH10 | --
 ch10 | [BS_static (absdiff, threshold, connectedComponentsWithStats)](Fastcampus/ch10/BS_static.py)    | ✔️
