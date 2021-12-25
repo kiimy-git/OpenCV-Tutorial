@@ -29,6 +29,7 @@ for y in range(4):
         '''
         입력영상을 출력영상으로 받는다.
         why?  _, dst_ = cv2.threshold 로 진행하면 이전 dst_의 정보를 잃어버려
+        dst: 출력 영상. src와 동일 크기, 동일 타입, 같은 채널 수
         dst_ = src_의 크기가 같아야함
         '''
         cv2.threshold(src_, 0,255,cv2.THRESH_OTSU, dst_)

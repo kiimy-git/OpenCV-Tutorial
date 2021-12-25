@@ -17,7 +17,7 @@ sift = cv2.xfeatures2d.SIFT_create() 좋음
 '''
 # 특징점 알고리즘 객체 생성 (KAZE, AKAZE, ORB 등)
 feature = cv2.KAZE_create() # 방향 성분 x( 0도 )
-#feature = cv2.AKAZE_create() # 방향 성분 o
+# feature = cv2.AKAZE_create() # 방향 성분 o
 #feature = cv2.ORB_create() # 상당히 빠름
 # cv2.ORB_create(1000) 검출할 특징점 개수, default = 500
 '''
@@ -44,6 +44,7 @@ _, desc1 = feature.compute(src1, kp1)
 
 # 특징점 검출 및 기술자 계산(detect, compute)
 # 이 두가 지가 모두 가능한 class를 사용해야해(Fastfeaturedetector?? = detection만 됨)
+# kp1, desc2 = feature.detectAndCompute(src1, None)
 kp2, desc2 = feature.detectAndCompute(src2, None)
 
 print('desc1.shape:', desc1.shape) # column의 갯수는 무조건 동일()
@@ -54,7 +55,7 @@ print('desc2.dtype:', desc2.dtype)
 # 검출된 특징점 출력 영상 생성
 # for loop 굳이 안돌리고 drawKeypoints 사용
 dst1 = cv2.drawKeypoints(src1, kp1, None, 
-                        flags= cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
+                        flags= cv2.DRAW_MATCHES_FLAGS_DEFAULT)
 dst2 = cv2.drawKeypoints(src2, kp2, None, 
                         flags= cv2.DRAW_MATCHES_FLAGS_DRAW_RICH_KEYPOINTS)
 '''

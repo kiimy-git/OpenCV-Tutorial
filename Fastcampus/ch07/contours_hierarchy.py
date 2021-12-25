@@ -10,7 +10,7 @@ if src is None:
     print('Image load failed!')
     sys.exit()
 
-contours, hier = cv2.findContours(src, cv2.RETR_CCOMP, cv2.CHAIN_APPROX_NONE)
+contours, hier = cv2.findContours(src, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 '''
 cv2.findContours(image, mode, method, contours=None, hierarchy=None, 
                 offset=None) -> contours, hierarchy

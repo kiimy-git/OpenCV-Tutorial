@@ -49,15 +49,16 @@ while True:
     ''' meanshift <-> camshift
     cv2.CamShift(probImage, window, criteria) -> retval, window
 
-    window: 회전되지 않은 사각형
     retval: 추적하는 객체의 모양을 나타내는 회전된 사각형정보 반환
     ((cx, cy), (width, height), angle)
     (사각형의 중심), (가로,세로), 사각형이 몇도 회전했는지
+
+    window: 회전되지 않은 사각형
     '''
 
     # 추적 결과 화면 출력(타원)
     cv2.rectangle(frame, rc, (0,0,255), 2)
-    cv2.ellipse(frame, ret, color=(0,255,0), thickness=2)
+    # cv2.ellipse(frame, ret, color=(0,255,0), thickness=2)
     cv2.imshow('frame', frame)
 
     if cv2.waitKey(30) == ord('q'):

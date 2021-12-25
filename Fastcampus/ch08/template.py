@@ -35,6 +35,7 @@ method = SQDIFF(완전히 같으면 0, 다르면 값이 커짐)
 '''
 
 res = cv2.matchTemplate(src_noise, templ, cv2.TM_CCOEFF_NORMED)
+print(res)
 # 영상을 보기 위함(normalize) = 유난히 밝은 흰색 부분을 찾을 수 있음
 res_norm = cv2.normalize(res, None, 0,255, cv2.NORM_MINMAX, cv2.CV_8U)
 
@@ -66,4 +67,5 @@ cv2.imshow('templ', templ)
 cv2.imshow('src_noise', src_noise)
 cv2.imshow('src', src)
 cv2.imshow('dst', dst)
+cv2.imshow('res_norm', res_norm)
 cv2.waitKey()

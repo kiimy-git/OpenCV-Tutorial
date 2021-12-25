@@ -68,7 +68,7 @@ while True:
     cv2.imshow('frame', frame2)
     cv2.imshow('flow', bgr)
     cv2.imshow('frame2', draw_flow(gray2, flow))
-    if cv2.waitKey(20) == 27:
+    if cv2.waitKey(20) == ord('q'):
         break
 
     # 이렇게 안하면 특정 위치에서 값을 계속 가지고있는데..왜?

@@ -13,6 +13,11 @@ if src is None:
 # ksize(가로, 세로) 가로를 작게하고 세로를 크게
 # kernel
 se = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 3))
+'''
+cv2.MORPH_RECT 사각형 모양
+cv2.MORPH_CROSS 십자가 모양
+cv2.MORPH_ELLIPSE 사각형에 내접하는 타원
+'''
 
 dst1 = cv2.erode(src, se)
 

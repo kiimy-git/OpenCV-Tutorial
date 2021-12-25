@@ -36,6 +36,15 @@ matcher = cv2.BFMatcher_create()
 '''
 matches = matcher.match(desc1, desc2)
 '''
+cv2.DescriptorMatcher.match(queryDescriptors, trainDescriptors, mask=None)
+                            -> matches
+
+• queryDescriptors: (기준 영상 특징점) 질의 기술자 행렬
+• trainDescriptors: (대상 영상 특징점) 학습 기술자 행렬
+• mask: 매칭 진행 여부를 지정하는 행렬 마스크.
+• matches: 매칭 결과. cv2.DMatch 객체의 리스트.
+
+*멤버함수*
 + queryIdx : 기준 영상 특징점(src1)
 + trainIdx : 대상 영상 특징점(src2)
 + imgIdx : 매칭할 영상(src2)를 여러장 줄 수 있는데 그중 가장 비슷한 것을 찾는 형태로 동작

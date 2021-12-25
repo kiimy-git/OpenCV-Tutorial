@@ -36,6 +36,7 @@ cv2.imshow('hist_nrom', hist_norm)
 cv2.waitKey()
 
 # Mean Shift 알고리즘 종료 기준
+# 최대 10번 반복하며, 정확도가 1이하이면(즉, 이동 크기가 1pixel보다 작으면)종료
 term_crit = (cv2.TERM_CRITERIA_EPS | cv2.TermCriteria_COUNT, 10, 1)
 
 # 비디오 매 프레임 처리
@@ -54,6 +55,9 @@ while True:
     _, rc = cv2.meanShift(backproj, rc, term_crit)
     '''
     cv2.meanShift(probImage, window, criteria) -> retval, window
+
+    probImage: 관심 객체에 대한 히스토그램 역투영 영상(확률 영상)
+    window: 초기 검색 영역 윈도우 & 결과 영역 반환
     retval: 알고리즘 내부 반복횟수
     '''
     cv2.rectangle(frame, rc, (0, 0, 255), 2)

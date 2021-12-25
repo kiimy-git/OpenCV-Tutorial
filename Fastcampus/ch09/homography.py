@@ -33,6 +33,7 @@ good_matches = matches[:60]
 # DMathch라는 클래스에는 queryIdx와 trainIdx가 멤버가 있다.
 # pt= kp1[m.queryIdx]의 좌표 (80,2) float64
 
+# cv2.findHomography 사용 할려면 shape=(N, 1, 2) 변경
 pts1 = np.array([kp1[m.queryIdx].pt for m in good_matches]
                 ).reshape(-1,1,2).astype(np.float32)
 pts2 = np.array([kp2[m.trainIdx].pt for m in good_matches]
@@ -44,6 +45,9 @@ H, M = cv2.findHomography(pts1, pts2, cv2.RANSAC)
 cv2.findHomography(srcPoints, dstPoints, method=None, 
                     ransacReprojThreshold=None, mask=None, maxIters=None, 
                     confidence=None) -> retval, mask
+
+• srcPoints: 입력 점 좌표. numpy.ndarray. shape=(N, 1, 2). dtype=numpy.float32. 
+• dstPoints: 결과 점 좌표. numpy.ndarray. shape=(N, 1, 2). dtype=numpy.float32.
 
 retval: 호모그래피 행렬. numpy.ndarray. shape=(3, 3). dtype=numpy.float32.
 mask: 출력 마스크 행렬. RANSAC, RHO 방법 사용 시 Inlier로 사용된
@@ -62,8 +66,9 @@ dst2 = cv2.drawMatches(src1, kp1, src2, kp2, good_matches, None)
 # Perspective
 (h,w) = src1.shape[:2]
 corners1 = np.array([[0,0], [0, h-1], [w-1, h-1], [w-1,0]] #(4,2)
-                    ).reshape(-1,1,2).astype(np.float32) # (4,1,2)
+                    ).reshape(-1,1,2).astype(np.float32) #(4,1,2)
 # 점들을(H라는 행렬) 어디로 좌표가 이동하는지
+# H.shape = (4, 1, 2)
 perspective = cv2.perspectiveTransform(corners1, H)
 
 # 합쳐져서 나오니까 이미지1의 가로 길이만큼 shift시킨다

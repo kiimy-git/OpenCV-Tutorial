@@ -6,7 +6,7 @@ import cv2
 # LK = 사용자가 정의한 몇 개의 점에서만 이동방향을 찾는다.
 
 # 카메라 장치 열기
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture('ch10\\videos\\vtest.avi')
 
 if not cap.isOpened():
     print('Camera open failed!')
@@ -35,6 +35,7 @@ while True:
         ptSrc = cv2.goodFeaturesToTrack(gray, 50, 0.01, 10)
         needToInit= False
 
+    # 최초 프레임 경우
     if ptSrc is not None:
         if prev is None:
             prev = gray.copy()
@@ -46,7 +47,7 @@ while True:
                 continue
 
             cv2.circle(img, (ptDst[i,0]).astype(int), 3, colors[i % 8], cv2.LINE_AA)
-            # cv2.arrowedLine(img, (ptSrc[i,0]).astype(int), (ptDst[i,0]).astype(int), (0,0,255), 3)
+            cv2.arrowedLine(img, (ptSrc[i,0]).astype(int), (ptDst[i,0]).astype(int), (0,0,255), 3)
 
     cv2.imshow('img', img)
     cv2.imshow('frame', frame)
@@ -61,6 +62,7 @@ while True:
         ptSrc = None
         ptDst = None
 
+    # 좌표 초기화 업데이트
     ptDst, ptSrc = ptSrc, ptDst
     prev = gray
 

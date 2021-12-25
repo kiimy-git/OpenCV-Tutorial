@@ -20,7 +20,7 @@ kp2, desc2 = feature.detectAndCompute(src2, None)
 matcher = cv2.BFMatcher_create()
 # 이진 기술자의 경우
 # matcher = cv2.BFMatcher_create(cv2.NORM_HAMMING)
-matches = matcher.knnMatch(desc1, desc2, 2) # 잘 매칭된 두개를 불러온다
+matches = matcher.knnMatch(desc1, desc2, 2) # k: 매칭할 근접 이웃 개수
 # [[DMatch], [DMatch]] 형태
 
 '''

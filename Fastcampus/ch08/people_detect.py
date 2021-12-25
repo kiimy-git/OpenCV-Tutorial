@@ -18,7 +18,6 @@ cv2.HOGDescriptor_getDefaultPeopleDetector()
 # retval : 미리 훈련된 특징 벡터. numpy.ndarray. shape=(3781, 1)
 '''
 
-
 while True:
     ret, frame = cap.read()
 

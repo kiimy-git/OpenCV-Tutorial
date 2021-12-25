@@ -14,8 +14,6 @@ if src is None:
 # x, y, w, h
 rc = cv2.selectROI(src)
 
-# mask = 0,1,2,3 네 개의 값으로 구성
-# 일반 적인 copyTo에서 사용하는 mask = 0, 255 두 개의 값을 가짐
 '''
 cv2.grabCut(img, mask, rect, bgdModel, fgdModel, iterCount, mode=None)
             -> mask, bgdModel, fgdModel
@@ -26,6 +24,9 @@ mask = np.zeros(src.shape[:2], np.uint8)
 cv2.grabCut(src, mask, rc, None, None, 5, mode=cv2.GC_INIT_WITH_RECT)
 # dst1 이미지가 이상하게 나옴
 dst1 = src * mask[:, :, np.newaxis]
+
+# mask = 0,1,2,3 네 개의 값으로 구성
+# 일반 적인 copyTo에서 사용하는 mask = 0, 255 두 개의 값을 가짐
 '''
 *mask*
 BGD = Background 0

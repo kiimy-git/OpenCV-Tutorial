@@ -36,6 +36,12 @@ while True:
     # fgmask = 0, 128, 255 값을 가짐
     # 그림자를 표현한다면 128값을 가지는 것이다
     fgmask = bs.apply(gray)
+    '''
+    cv2.BackgroundSubtractor.apply(image, fgmask=None, learningRate=None) 
+                            -> fgmask
+
+    fgmask: (출력)전경 마스크영상.8bit 이진 영상
+    '''
 
     # 학습된 배경 출력
     back = bs.getBackgroundImage()

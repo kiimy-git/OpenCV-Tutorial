@@ -31,6 +31,7 @@ def find_digit(img, img_digits):
 
         # res = img 영상과, img_digits 영상의 크기가 같으면 (1*1)행렬로 나옴
         # -1 ~ 1 의 값이 나옴
+        # == 즉, 최대값을 찾겠다는 code
         if res[0,0] > max_ccoeff:
             max_idx = i
             max_ccoeff = res[0,0]
@@ -62,6 +63,6 @@ for i in range(1, cnt):
                 0.7, (0,0,255), 1, cv2.LINE_AA)
 
 cv2.imshow('src', src)
-cv2.imshow('dst', dst) # 비스듬하거나 
+cv2.imshow('dst', dst)
 cv2.waitKey()
 
