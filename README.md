@@ -84,9 +84,26 @@ ch08 | [Digit_detect (connectedComponentsWithStats, matchTemplate)](Fastcampus/c
 ch08 | [Face_detect (CascadeClassifier, detectMultiScale)](Fastcampus/ch08/face_detect.py)    | ✏️
 ch08 | [Eye_detect (CascadeClassifier, detectMultiScale)](Fastcampus/ch08/eye_detect.py)    | ✏️
 ch08 | [People_detect (HOGDescriptor, setSVMDetector, HOGDescriptor_getDefaultPeopleDetector, detectMultiScale)](Fastcampus/ch08/people_detect.py)    | ✏️
+-- | CH09 | --
+ch09 | [Corners (goodFeaturesToTrack, FastFeatureDetector_create)](Fastcampus/ch09/corners.py)    | ✔️
+ch09 | [Descriptor (drawKeypoints)](Fastcampus/ch09/descriptors.py)    | ✔️
+ch09 | [Matching (detectAndCompute, BFMatcher_create, match)](Fastcampus/ch09/matching.py)    | ✔️
+ch09 | [Good_match (sorted(matches, key=lambda x: x.distance))](Fastcampus/ch09/good_match.py)    | ✏️
+ch09 | [Good_match_KNN (knnMatch)](Fastcampus/ch09/Good_match_knn.py)    | ✏️
+ch09 | [Homography (findHomography, perspectiveTransform)](Fastcampus/ch09/homography.py)    | ✏️
+ch09 | [Stitching_PANORAMA (Stitcher_create, stitch)](Fastcampus/ch09/stitching.py)    | ✔️
 
 
-
+-- | CH10 | --
+ch10 | [BS_static (absdiff, threshold, connectedComponentsWithStats)](Fastcampus/ch10/BS_static.py)    | ✔️
+ch10 | [BS_moveavg (back.astype(np.float32), accumulateWeighted)](Fastcampus/ch10/BS_moveavg.py)    | ✏️
+ch10 | [BS_MOG2 (createBackgroundSubtractorKNN, createBackgroundSubtractorMOG2, apply, getBackgroundImage)](Fastcampus/ch10/BS_MOG2.py)    | ✏️
+ch10 | [MeanShift (term_crit, calcBackProject, meanShift)](Fastcampus/ch10/meanshift.py)    | ✔️
+ch10 | [CamShift (term_crit, calcBackProject, CamShift)](Fastcampus/ch10/camshift.py)    | ✏️
+ch10 | [Optical_flow_LK (goodFeaturesToTrack, calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK.py)    | HARD
+ch10 | [Optical_flow_LK_video (calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK_video.py)    | HARD
+ch10 | [Optical_flow_Farne (calcOpticalFlowFarneback, cartToPolar)](Fastcampus/ch10/optical_flow_Farne.py)    | HARD
+ch10 | [Tracker (TrackerMIL_create, init, update)](Fastcampus/ch10/tracker.py)    | ✔️
 
 
 
