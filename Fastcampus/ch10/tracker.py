@@ -27,6 +27,12 @@ if not cap.isOpened():
 # Discriminative Correlation Filter with Channel and Spatial Reliability
 # 추적은 잘하는 편이지만 속도가 느려
 tracker = cv2.TrackerMIL_create()
+'''
+cv2.TrackerXXX_create() -> <TrackerXXX object>
+XXX = Boosting, CSRT, GOTURN, 
+        KCF, MedianFlow, MIL, 
+        MOSSE, TLD
+'''
 
 # 첫 번째 프레임에서 추적 ROI 설정
 ret, frame = cap.read()
@@ -37,6 +43,12 @@ if not ret:
 
 rc = cv2.selectROI('frame', frame)
 tracker.init(frame, rc)
+'''
+cv2.Tracker.init(image, boundingBox) -> retval
+
+boundingBox: ROI
+( (x, y, w, h) )
+'''
 
 while True:
     ret, frame = cap.read()
@@ -47,11 +59,16 @@ while True:
 
     # 추적 & ROI 사각형 업데이트
     ret, rc = tracker.update(frame)
+    '''
+    cv2.Tracker.update(image) -> retval, boundingBox
+
+    retval: True, False.(추적 성공여부)
+    '''
 
     # rectangle을 위한 int 변환
     rc = tuple([int(_) for _ in rc])
     cv2.rectangle(frame, rc, (0,0,255), 2)
 
     cv2.imshow('frame', frame)
-    if cv2.waitkey(20) == ord('q'):
+    if cv2.waitKey(20) == ord('q'):
         break
