@@ -32,7 +32,7 @@ while True:
 
     # 특징점 검출 활성화를 위함
     if needToInit:
-        ptSrc = cv2.goodFeaturesToTrack(gray, 50, 0.01, 10)
+        ptSrc = cv2.goodFeaturesToTrack(gray, 50, 0.1, 10)
         needToInit= False
 
     # 최초 프레임 경우

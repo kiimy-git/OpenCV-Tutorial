@@ -34,7 +34,7 @@ for pts in src_contours:
         continue
 
     rc = cv2.boundingRect(pts)
-    print(rc[0], rc[1]) # x, y
+    print(rc[0], rc[1]) # x, y, w, h
     cv2.rectangle(dst, rc, (0,0,255), 1)
 
     # 모양 비교
