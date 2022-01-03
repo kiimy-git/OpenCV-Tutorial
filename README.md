@@ -102,6 +102,11 @@ ch10 | [Optical_flow_LK (goodFeaturesToTrack, calcOpticalFlowPyrLK)](Fastcampus/
 ch10 | [Optical_flow_LK_video (calcOpticalFlowPyrLK)](Fastcampus/ch10/optical_flow_LK_video.py)    | HARD
 ch10 | [Optical_flow_Farne (calcOpticalFlowFarneback, cartToPolar)](Fastcampus/ch10/optical_flow_Farne.py)    | HARD
 ch10 | [Tracker (TrackerMIL_create, init, update)](Fastcampus/ch10/tracker.py)    | ✔️
+-- | ##########[CH11 머신 러닝](Fastcampus/ch11)########## | --
+ch11 | [KNN (cv2.ml.KNearest_create, findNearest)](Fastcampus/ch11/knn.py)    | ✔️
+ch11 | [HOG & SVM (HOGDescriptor, cv2.ml.SVM_create, compute)](Fastcampus/ch11/svm.py)    | ✔️
+ch11 | [K_Means (criteria, cv2.kmeans)](Fastcampus/ch11/kmeans.py)    | ✔️
+ch11 | [Digits_recognition (HOGDescriptor, threshold, connectedComponentsWithStats, compute)](Fastcampus/ch11/digit_recog.py)    | 🎯
 
 
 
