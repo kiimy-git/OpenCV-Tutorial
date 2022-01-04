@@ -1,8 +1,6 @@
 # ✒️ opencv 4.5.4 tutorial
 [![](https://img.shields.io/badge/opencv-v4.5.4-orange.svg)](https://opencv.org/) [![](https://img.shields.io/badge/opencv-tutorial-brightgreen.svg)](https://docs.opencv.org/4.0.0/d9/df8/tutorial_root.html)
 
-## Introduction
-### OpenCV
 [Blog](https://cord-ai.tistory.com/) ~ing
 
 ## Learning
