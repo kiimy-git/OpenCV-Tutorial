@@ -44,7 +44,7 @@ src_color = cv2.imread('ch03\\images\\field.bmp')
 src_ycrcb = cv2.cvtColor(src_color, cv2.COLOR_BGR2YCrCb)
 y, cr, cb = cv2.split(src_ycrcb)
 planes = cv2.split(src_ycrcb)
-print(planes[0])
+print(planes[0]) # planes == Tuple
 print(y)
 print(src_ycrcb[:, :, 0])
 
@@ -66,4 +66,7 @@ cv2.waitKey()
 planes = cv2.split(src_ycrcb)
 planes[0] = cv2.equalizeHist(planes[0])
 TypeError: 'tuple' object does not support item assignment
+
+==> list(planes)[0]= cv2.equalizeHist(list(planes)[0])
+planes를 리스트화 해서 접근해야됨
 '''
