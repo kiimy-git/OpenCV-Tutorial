@@ -10,7 +10,7 @@
 - 🎯  **: Functions coding**
 
 ## Chapter 학습 내용
-[Chapter별 학습 ](Fastcampus/chapter\학습\내용(image)/)
+[Chapter별 학습 내용](Fastcampus/chapter\학습\내용(image)/)
 
 ## FastCampus
 No    | Description   | Annotation
