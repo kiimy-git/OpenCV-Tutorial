@@ -9,6 +9,9 @@
 - ✏️  **: Attention**
 - 🎯  **: Functions coding**
 
+## Chapter 학습 내용
+[Chapter](OpenCV-Tutorial/Fastcampus/chapter 학습 내용(image))
+
 ## FastCampus
 No    | Description   | Annotation
 :--------: | :--------: | :--------:
